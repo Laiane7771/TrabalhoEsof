@@ -1,0 +1,355 @@
+/*PainelPesquisarView e PainelTabelaeBotao*/
+body{
+	margin: -10px;
+	padding: -10px;
+	border: -10px;
+}
+.hpPainelPesquisar{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	
+}
+
+.hpPainelLabelContatos{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	text-align: center;	
+}
+
+.hpPainelTabela{
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.hpPainelBotaoCadastrarNovo{
+	position: relative;
+	width: 100%;
+	height: 40%;
+		
+}
+
+.vpPainelTroca{
+	width: 100%;
+	height: 100%;
+
+}
+
+.vpPainelTelaInicial{
+	width: 100%;
+	height: 100%;
+	background: magenta;
+	
+}
+
+.tbPesquisar{
+	position: relative;
+	width: 134%;
+    height: 20px;
+    margin-left: 26px;
+    margin-top: 47px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.tbPesquisar:focus{
+	outline: none;
+}
+
+.btnPesquisar{
+	width: 34px;
+    height: 35px;
+   	margin-left: 123px;
+    margin-top: 42px;
+    background: url(../Image/pesquisa.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+}
+.btnPesquisar:focus{
+	outline: none;
+}
+
+.btnCadastrarNovo{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 22px;
+	margin-right: 16px;
+	width: 9%;
+    height: 205%;
+    float: right;
+}
+.lbContatos{
+	position: relative;
+    margin-top: 10px;
+    margin-left: 588px;
+    font-size: 20px;
+	
+}
+
+table{
+	cellspace: 1px;
+}
+.ftTabelaContatos{
+	position:relative;
+	width: 98%;
+    height: 37em;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 0.5px solid white;
+	background: white;
+	border: 1px solid;
+	border: none;
+	margin-bottom: 7px;
+	outline: none;
+}
+
+
+/*CadastrarNovoContatoView*/
+
+.hpPainelLabelInformacoes{
+	position: relative;
+	background: #CCCCCC;
+	width: 100%;
+	height: 20%;
+	
+}
+.hpPainelLabeleTextboxNome{
+	position: relative;
+	margin-top: 62px;
+	width: 100%;
+	height: 20%;
+}
+
+.hpPainelLabeleTexboxEmailApelido{
+	position: relative;
+	margin-top: 0.5%;
+	width: 100%;
+	height: 20%;
+}
+.hpPainelLabeleTextboxTelefone{
+	position: relative;
+	margin-top: 0.5%;
+	margin-bottom: 40px;
+	width: 100%;
+	height: 20%;
+}
+.hpPainellabelRedesSociais{
+	position: relative;
+	background: #CCCCCC;
+	width: 100%;
+	height: 20%;
+}
+.hpPainelLabeleTextboxFacebook{
+	position: relative;
+	margin-top: 40px;
+	width: 100%;
+	height: 20%;
+}
+
+.hpPainelLabeleTexboxGithub{
+	position: relative;
+	margin-top: 1%;
+	width: 100%;
+	height: 20%;
+}
+.hpPainelLabeleTexboxTwitter{
+	position: relative;
+	margin-top: 1%;
+	width: 100%;
+	height: 20%;
+}
+.hpPainelLabeleTexboxInstagram{
+	position: relative;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	width: 100%;
+	height: 20%;
+}
+
+.hpPainelBotoes{
+	position: relative;
+	margin-top: 1%;
+	width: 100%;
+	height: 20%;
+	background: #CCCCCC;
+}
+
+.vpPainelGuardaFormulario{
+	position: relative;
+	margin-top: 1%;
+	width: 100%;
+	height: 100%;
+}
+
+
+.lbInformacoesPessoas{
+	position: relative;
+    margin-left: 553px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.lbNome{
+	position: relative;
+    margin-left: 342px;
+    margin-top: 5px;
+}
+
+.lbEmail{
+	position: relative;
+    margin-left: 344px;
+    margin-top: 3px;
+}
+
+.lbApelido{
+	position: relative;
+    margin-left: 68px;
+    margin-top: 4px;
+}
+.lbTelefone{
+	position: relative;
+    margin-left: 325px;
+    margin-top: 3px;
+}
+
+.lbDataNasci{
+	position: relative;
+    margin-left: 45%;
+    margin-top: 4px;
+    margin-right: 12px;
+}
+
+.lbRedesSociais{
+	position: relative;
+    margin-left: 553px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.lbFacebook{
+	position: relative;
+    margin-left: 325px;
+    margin-top: 3px;
+}
+.lbGithub{
+	position: relative;
+    margin-left: 343px;
+    margin-top: 3px;
+}
+
+.lbTwitter{
+	position: relative;
+    margin-left: 342px;
+    margin-top: 4px;
+}
+.lbInstagram{
+	position: relative;
+    margin-left: 323px;
+    margin-top: 3px;
+
+}
+
+.tbNome{
+	position: relative;
+    width: 67.3%;
+    /*height: 162%;*/
+}
+
+.tbEmail{
+	position: relative;
+	width: 126%;
+	/*height:  162%;*/
+}
+
+.tbApelido{
+	position: relative;
+	width: 46.9%;
+	/*height: 162%;*/
+}
+
+.tbTelefone{
+	position: relative;
+	margin-left: 10px;
+	width: 343%;
+}
+
+.tbDataNasci{
+	position: relative;
+	width:26%;
+	margin-right: 10px;
+}
+
+.tbFacebook{
+	position: relative;
+	width:  67%;
+	/*height:  162%;*/
+}
+
+.tbGithub{
+	position: relative;
+	width:  67%;
+	/*height:  162%;*/
+}
+
+.tbTwitter{
+	position: relative;
+	width:  67%;
+	/*height: 162%;*/
+}
+
+.tbInstagram{
+	position: relative;
+	width:  67%;
+	/*height: 162%;*/
+}
+
+.btnVoltar{
+	position: relative;
+	margin-left: 89px;
+	float: right;
+	width: 10%;
+	height:  162%;
+}
+.btnSalvar{
+	position: relative;
+    margin-left: 4px;
+    width: 22%;
+    height: 129%;
+}
+
+.btnExcluir{
+	position: relative;
+    margin-left: 4px;
+    width: 22%;
+    height: 129%;
+}
+
+
+/*Label na tabela*/
+
+.tftNome{
+	background: #CCCCCC;
+}
+.tftApelido{
+	background: #CCCCCC;
+}
+.tftTelefone{
+	background: #CCCCCC;
+}
+.tftEmail{
+	background: #CCCCCC;
+}
+.tftDataNasci{
+	background: #CCCCCC;
+}
+.tftRedesSociais{
+	background: #CCCCCC;
+}
+
+
+
