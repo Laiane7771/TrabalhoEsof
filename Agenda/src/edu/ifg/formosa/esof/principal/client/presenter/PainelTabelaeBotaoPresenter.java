@@ -71,8 +71,6 @@ public class PainelTabelaeBotaoPresenter implements Presenter {
 		tiv.getFtTabelaContatos().removeAllRows();
 		
 		
-	
-		
 	}
 	
 	/*

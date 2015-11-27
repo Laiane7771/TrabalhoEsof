@@ -1,22 +1,27 @@
 package edu.ifg.formosa.esof.principal.server.dao;
 
 
-
-//import java.util.Map.Entry;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Date;
 
 import org.neo4j.cypher.ExecutionEngine;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Label;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.RelationshipType;
-//import org.neo4j.graphdb.Result;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.kernel.impl.util.StringLogger;
-import edu.ifg.formosa.esof.principal.client.bd.ConnectionFactory;
+
+import com.ibm.icu.text.SimpleDateFormat;
+
+import edu.ifg.formosa.esof.principal.server.ConnectionFactory;
 import edu.ifg.formosa.esof.principal.shared.Pessoa;
 
 public class PessoaDAO extends ConnectionFactory {
 	
+	SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+	Date d = new Date();
 	public enum NodeType implements Label {
 		Pessoa;
 	}
@@ -91,5 +96,25 @@ public class PessoaDAO extends ConnectionFactory {
 	}
 	
 	
+	public ArrayList<Pessoa> listaPessoa(){
+		
+		Pessoa pessoa = new Pessoa();
+		
+		pessoa.setNome("Aldenice Alves");
+		pessoa.setApelido("nicy");
+		pessoa.setEmail("ald.nicyy323@gmail.com");
+		try {
+			d = formato.parse("25/06/1996");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		formato.format(d);
+		pessoa.setDataNascimento(d);
+		pessoa.setFacebook("http://www.facebook.com.br/aldenicealves");
+		pessoa.setGithub("http://www.");
+		
+		return null;
+	}
 
 }

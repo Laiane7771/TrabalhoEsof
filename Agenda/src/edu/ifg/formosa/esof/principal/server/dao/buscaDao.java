@@ -3,7 +3,7 @@ package edu.ifg.formosa.esof.principal.server.dao;
 import org.neo4j.graphdb.Label;
 import org.neo4j.graphdb.RelationshipType;
 
-import edu.ifg.formosa.esof.principal.client.bd.ConnectionFactory;
+import edu.ifg.formosa.esof.principal.server.ConnectionFactory;
 
 public class buscaDao extends ConnectionFactory {
 	
